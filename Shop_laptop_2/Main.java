@@ -86,7 +86,7 @@ public class Main {
                     laptop.getStorage().equals(filterParams.get(2)) ||
                     laptop.getOs().equalsIgnoreCase(filterParams.get(3)) ||
                             laptop.getColor().equalsIgnoreCase(filterParams.get(4))) {
-                                
+
                 filteredLaptops.add(laptop);
             }
         }
@@ -98,7 +98,7 @@ public class Main {
 
     }
 
-    // Метод для печати всех ноутбуков в магазине
+    //  Метод для печати всех ноутбуков в магазине
 
     static void print(Set<Laptop> laptops) {
         for (Laptop laptop : laptops) {
