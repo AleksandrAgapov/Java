@@ -1,15 +1,15 @@
-package Shop_laptop_2;
+package Shop_laptop.Shop_laptop3;
 
 public class Laptop {
     private static int count = 0;
     private int id;
     private String model;
-    private String ram;
-    private String storage;
+    private int ram;
+    private int storage;
     private String os;
     private String color;
 
-    public Laptop(String model, String ram, String storage, String os, String color) {
+    public Laptop(String model, int ram, int storage, String os, String color) {
         this.id = ++count;
         this.model = model;
         this.ram = ram;
@@ -26,11 +26,11 @@ public class Laptop {
         return model;
     }
 
-    public String getRam() {
+    public int getRam() {
         return ram;
     }
 
-    public String getStorage() {
+    public int getStorage() {
         return storage;
     }
 
@@ -53,8 +53,7 @@ public class Laptop {
                 ", color='" + color + '\'' +
                 '}';
     }
+}
 
-         
-    }
-
+    
 
