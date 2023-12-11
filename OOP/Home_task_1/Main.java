@@ -8,14 +8,17 @@ public class Main {
         fish1.getName();
 
         Animal bird = new Birds("duck");
+        
 
         bird.getName();
 
         fish1.toFly();
-        
+
         fish1.toGo();
 
         bird.swim();
+
+
 
 
 
